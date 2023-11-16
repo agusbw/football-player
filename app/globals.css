@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --background: 237, 244, 253;
+}
+
+body {
+  background: rgb(var(--background));
+}
