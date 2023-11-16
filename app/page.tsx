@@ -3,6 +3,8 @@ import PlayerList from '@/components/player-list';
 import { Suspense } from 'react';
 import PlayerListSkeleton from '@/components/player-list-skeleton';
 
+export const dynamic = 'force-dynamic';
+
 async function getAllPositions(): Promise<string[]> {
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_BASE_URL}/api/v1/positions`
