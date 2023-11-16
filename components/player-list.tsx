@@ -4,6 +4,9 @@ import { type Player } from '@/lib/types';
 async function getPlayers(): Promise<Player[]> {
   const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/v1/players`);
 
+  //delay untuk simulasi loading saja
+  await new Promise((resolve) => setTimeout(resolve, 1500));
+
   if (!res.ok) {
     throw new Error('Failed to fetch data');
   }
