@@ -1,0 +1,123 @@
+[
+  {
+    "firstName": "Peter",
+    "lastName": "Schmeichel",
+    "email": "peter@manutd.com",
+    "phoneNumber": "+4524123123",
+    "username": "pschmeicel",
+    "city": "Gladsaxe",
+    "country": "Denmark",
+    "position": "goalkeeper",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Peter_Schmeichel_2012-01-25_001.jpg/556px-Peter_Schmeichel_2012-01-25_001.jpg"
+  },
+  {
+    "firstName": "Cafu",
+    "lastName": "",
+    "email": "cafu@acmilan.com",
+    "phoneNumber": "+5522131312312",
+    "username": "cafu",
+    "city": "Itaquaquecetuba",
+    "country": "Brazil",
+    "position": "defender",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/7/7a/14_06_2019_Abertura_da_Copa_Am%C3%A9rica_Brasil_2019_%2848064408836%29_%28cropped%29.jpg"
+  },
+  {
+    "firstName": "Alessandro",
+    "lastName": "Nesta",
+    "email": "nesta@acmilan.com",
+    "phoneNumber": "+397218313",
+    "username": "anesta",
+    "city": "Rome",
+    "country": "Italy",
+    "position": "defender",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Alessandro_Nesta_as_Miami_FC_Manager.jpg"
+  },
+  {
+    "firstName": "Fernando",
+    "lastName": "Hierro",
+    "email": "fernando@madrid.com",
+    "phoneNumber": "+3498123123",
+    "username": "fernando",
+    "city": "Vélez-Málaga",
+    "country": "Spain",
+    "position": "defender",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/4/44/Fernando_Hierro_2008.jpg"
+  },
+  {
+    "firstName": "Paolo",
+    "lastName": "Maldini",
+    "email": "maldini@acmilan.com",
+    "phoneNumber": "+39123123",
+    "username": "maldini",
+    "city": "Rome",
+    "country": "Italy",
+    "position": "defender",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Maldini2008.JPG/388px-Maldini2008.JPG"
+  },
+  {
+    "firstName": "Lothar",
+    "lastName": "Matthaus",
+    "email": "matthaus@fcbayern.com",
+    "phoneNumber": "+498573241",
+    "username": "lotharm",
+    "city": "Erlangen",
+    "country": "Germany",
+    "position": "midfielder",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/2019_Lothar_Matth%C3%A4us.jpg/526px-2019_Lothar_Matth%C3%A4us.jpg"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Laudrup",
+    "email": "laudrup@fcbarcelona.com",
+    "phoneNumber": "+45512324",
+    "username": "mlaudrup",
+    "city": "Frederiksberg",
+    "country": "Denmark",
+    "position": "midfielder",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Michael_Laudrup.jpg"
+  },
+  {
+    "firstName": "Roy",
+    "lastName": "Keane",
+    "email": "roy@manutd.com",
+    "phoneNumber": "+35398213123",
+    "username": "keane",
+    "city": "Cork",
+    "country": "Ireland",
+    "position": "midfielder",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Roy_keane_2014.jpg/450px-Roy_keane_2014.jpg"
+  },
+  {
+    "firstName": "Roberto",
+    "lastName": "Baggio",
+    "email": "baggio@juventus.com",
+    "phoneNumber": "+3981293123",
+    "username": "rbaggio",
+    "city": "Caldogno",
+    "country": "Italy",
+    "position": "midfielder",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Roberto_Baggio_cropped.jpg/446px-Roberto_Baggio_cropped.jpg"
+  },
+  {
+    "firstName": "Gabriel",
+    "lastName": "Batistuta",
+    "email": "gabriel@fiorentina.com",
+    "phoneNumber": "+541231534",
+    "username": "gabrielb",
+    "city": "Avellaneda",
+    "country": "Argentina",
+    "position": "forward",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/1/13/Omar_Batistuta_%282%29.jpg"
+  },
+  {
+    "firstName": "Romario",
+    "lastName": "",
+    "email": "romario@vasco.com.br",
+    "phoneNumber": "+5591423123",
+    "username": "romario",
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "position": "forward",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/1/13/Omar_Batistuta_%282%29.jpg"
+  }
+]
