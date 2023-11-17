@@ -5,7 +5,10 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Football',
+  title: {
+    template: '%s | Football',
+    default: 'Football',
+  },
   description: 'List of football players',
 };
 
