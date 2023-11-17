@@ -4,7 +4,7 @@ export async function GET() {
   const allPositions = new Set(data.map((player) => player.position));
 
   return Response.json({
-    status: 'success',
+    success: true,
     data: Array.from(allPositions),
   });
 }
