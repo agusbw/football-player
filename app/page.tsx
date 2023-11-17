@@ -32,7 +32,7 @@ export default async function Home({
   const selectedPosition = searchParams?.position || '';
 
   return (
-    <main className="p-10">
+    <main className="p-5 lg:p-10">
       <h1 className="text-4xl font-semibold mb-3">Football Player List</h1>
       <Filter positions={positions} />
       <Suspense fallback={<PlayerListSkeleton />}>
