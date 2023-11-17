@@ -27,6 +27,8 @@ export default async function Home({
   };
 }) {
   const positions = await getAllPositions();
+
+  //get selected position from query params if exist and pass it to player list (filtering player)
   const selectedPosition = searchParams?.position || '';
 
   return (

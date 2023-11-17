@@ -6,6 +6,7 @@ export default function Filter({ positions }: { positions: string[] }) {
   const router = useRouter();
   const pathname = usePathname();
 
+  //put selected position to query params
   function handleFilterChange(position: string) {
     const params = new URLSearchParams(searchParams);
 
