@@ -1,7 +1,7 @@
 function PlayerCardSkeleton() {
   return (
-    <div className=" p-4 border rounded-md bg-white shadow-md">
-      <div className="animate-pulse flex flex-col sm:flex-row justify-center sm:justify-normal space-x-4">
+    <div className="p-4 border rounded-md bg-white shadow-md">
+      <div className="animate-pulse flex flex-col sm:flex-row justify-center sm:justify-normal sm:space-x-4">
         <div className="bg-slate-200 h-40 w-32 mx-auto sm:mx-0"></div>
         <div className="flex-1 space-y-6 mt-5 sm:mt-0">
           <div className="h-5 bg-slate-200 rounded w-4/5 mx-auto sm:mx-0"></div>
