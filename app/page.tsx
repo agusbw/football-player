@@ -26,7 +26,7 @@ export default async function Home({
     position?: string;
   };
 }) {
-  const positions = await getAllPositions();
+  const positions = getAllPositions();
 
   //get selected position from query params if exist and pass it to player list (filtering player)
   const selectedPosition = searchParams?.position || '';
@@ -34,7 +34,11 @@ export default async function Home({
   return (
     <main className="p-5 lg:p-10">
       <h1 className="text-4xl font-semibold mb-3">Football Player List</h1>
-      <Filter positions={positions} />
+      <Suspense
+        fallback={<div className="bg-slate-200 animate-pulse h-10 w-52"></div>}
+      >
+        <Filter positionsPromise={positions} />
+      </Suspense>
       <Suspense fallback={<PlayerListSkeleton />}>
         <PlayerList selectedPosition={selectedPosition} />
       </Suspense>

@@ -1,10 +1,18 @@
 'use client';
 import { useSearchParams, usePathname, useRouter } from 'next/navigation';
+import { use } from 'react';
 
-export default function Filter({ positions }: { positions: string[] }) {
+export default function Filter({
+  positionsPromise,
+}: {
+  positionsPromise: Promise<string[]>;
+}) {
   const searchParams = useSearchParams();
   const router = useRouter();
   const pathname = usePathname();
+
+  //resolve promise using new react use hook
+  const positions = use(positionsPromise);
 
   //put selected position to query params
   function handleFilterChange(position: string) {
