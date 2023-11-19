@@ -39,7 +39,10 @@ export default async function Home({
       >
         <Filter positionsPromise={positions} />
       </Suspense>
-      <Suspense fallback={<PlayerListSkeleton />}>
+      <Suspense
+        fallback={<PlayerListSkeleton />}
+        key={selectedPosition}
+      >
         <PlayerList selectedPosition={selectedPosition} />
       </Suspense>
     </main>
